@@ -4,6 +4,9 @@
     margin: 0;
     font-family: "Inter", sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 .all{
     height: 100vh;
     overflow: hidden;
@@ -118,5 +121,17 @@ footer{
     }
     .header__logo{
         margin: 0 auto;
+    }
+    .text__main{
+        font-size: 40px;
+    }
+    .text__submain{
+        font-size: 30px;
+    }
+    .logos__img{
+        width: 40%;
+    }
+    footer{
+        padding-bottom: 20px;
     }
   }
