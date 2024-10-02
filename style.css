@@ -107,6 +107,9 @@ footer{
     .googlemaps>*{
         width: 100vw;
     }
+    .googlemaps{
+        width: 100vw;
+    }
     .contacts{
         margin: 0 auto;
         margin-top: 20px;
@@ -129,7 +132,7 @@ footer{
         font-size: 30px;
     }
     .logos__img{
-        width: 40%;
+        width: 90%;
     }
     footer{
         padding-bottom: 20px;
