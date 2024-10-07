@@ -59,15 +59,13 @@ main{
 .OurClients__logos {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .logos__img {
-    height: 200px;
-    width: 200px;
-    border: black 1px solid;
-    margin-right: 50px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+   margin: 0 auto;
+   margin-top: 10px;
 }
+
 footer{
     background-color: black;
     height: 100%;
@@ -136,5 +134,8 @@ footer{
     }
     footer{
         padding-bottom: 20px;
+    }
+    .logos__img>img{
+        width: 80vw;
     }
   }
